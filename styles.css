@@ -1,0 +1,71 @@
+img {
+    width: 50%;
+}
+  
+body {
+    background-color: gray;
+    color: white;
+    font-family: Courier;
+}
+  
+html::-webkit-scrollbar {
+    display: none;
+}
+  
+header {    text-align: center;
+}
+  
+header h1 {
+    margin-top: 50px
+}
+  
+header p {
+    margin-top: -20px;
+    margin-left: auto;
+}
+  
+h2, h3, p, .nav-link, #who-and-why {
+    margin-left: 20px;
+}
+  
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+  
+label, input {
+    display: block;
+    margin-bottom: 12px;
+}
+  
+#email {
+    width: 52%;
+}
+  
+@media screen and(max-width: 1px){
+    #submit {
+      display: flex;
+    }
+}
+  
+.nav-links {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.nav-links a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+ nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+}
+  
